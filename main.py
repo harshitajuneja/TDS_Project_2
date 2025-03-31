@@ -2114,7 +2114,7 @@ def solve_question():
 @app.route("/", methods=["GET"])
 def root():
     return jsonify({
-        "message": "Welcome to the TDS Solver API by Vishal Baraiya",
+        "message": "Welcome to the TDS Solver API by Harshita Juneja",
         "usage": "POST to /api/ with question (required) and file (optional)"
     })
 
